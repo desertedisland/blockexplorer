@@ -21,8 +21,7 @@ module.exports = {
     output: {
         filename: '[name].[hash].js',
         chunkFilename: '[name].[hash].js',
-        path: path.resolve('dist'),
-        publicPath: "/dist"
+        path: path.resolve('dist')
     },
     module: {
         rules: [
@@ -65,10 +64,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common' // Common bundle's name.
-        }),
-        new CopyWebpackPlugin([
-            { from : 'public/img', to : 'img' }
-        ]),
+        })
         // new BundleAnalyzerPlugin()
     ],
     devtool: 'source-map'
