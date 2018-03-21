@@ -14,7 +14,7 @@ export default class Settings extends React.Component {
 
         this.state = {
             metaMaskExists : (typeof web3 !== 'undefined'),
-            nodeUri : localStorage.getItem('mix-node-uri') || ''
+            nodeUri : localStorage.getItem('mix-node-uri') || 'https://mainnet.infura.io/u8bCZlRnK6En19YP0vjV'
         };
 
         this.handleInputChange = this.handleInputChange.bind(this);

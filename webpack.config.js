@@ -50,8 +50,7 @@ module.exports = {
             jQuery: 'jquery',
             $: 'jquery',
             jquery: 'jquery'
-        }),
-        new DotenvPlugin({path : './.env'})
+        })
     ],
     devtool : 'source-map',
     devServer: {
