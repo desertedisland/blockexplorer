@@ -1,7 +1,11 @@
 # Mix Project Block Explorer
 
 Mix Block Explorer is a decentralised application (dApp) designed to show real time statistics for any
-Ethereum based blockchain. The system has [Metamask](https://metamask.io/) integration meaning you can connect
+Ethereum based blockchain.
+
+You can see a live version of this application at [http://block.yellowmelon.co/](http://block.yellowmelon.co/)
+
+The system has [Metamask](https://metamask.io/) integration meaning you can connect
 to any blockchain you have connected to in Metamask. Or you can simply specify a CORS enabled Ethereum node via
 domain name or IP address.
 
